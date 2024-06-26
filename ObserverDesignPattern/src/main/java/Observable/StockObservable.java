@@ -2,8 +2,10 @@ package Observable;
 
 import Observer.NotificationAlertObserver;
 
-/*
-Implement notify me feature in shopping app
+/**
+ * This class represents observer pattern for notify me functionality in shopping app.
+ * Concept is to observe stock with help of Notification Observer class.
+ * @author Niraj_Bhoyar
  */
 public interface StockObservable {
 
