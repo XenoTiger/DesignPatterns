@@ -6,8 +6,8 @@ public class Driver {
 
         AbstractVehicleFactory abstractVehicleFactory = new AbstractVehicleFactory();
         VehicleFactory vehicleFactory
-                = abstractVehicleFactory.getVehicleFactory("factory.OrdinaryVehicleFactory");
-        vehicleFactory.getVehicle("product.Verna").average();
+                = abstractVehicleFactory.getVehicleFactory("OrdinaryVehicleFactory");
+        vehicleFactory.getVehicle("Verna").average();
 
     }
 

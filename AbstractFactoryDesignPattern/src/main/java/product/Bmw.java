@@ -1,5 +1,7 @@
 package product;
 
+import factory.Vehicle;
+
 public class Bmw implements Vehicle {
 
     @Override

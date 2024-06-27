@@ -13,8 +13,8 @@ public class AbstractVehicleFactory {
     VehicleFactory getVehicleFactory(String input) {
 
         return switch (input) {
-            case "factory.LuxoryVehicleFactory" -> new LuxoryVehicleFactory();
-            case "factory.OrdinaryVehicleFactory" -> new OrdinaryVehicleFactory();
+            case "LuxoryVehicleFactory" -> new LuxoryVehicleFactory();
+            case "OrdinaryVehicleFactory" -> new OrdinaryVehicleFactory();
             default -> null;
         };
     }
