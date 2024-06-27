@@ -1,9 +1,11 @@
 package product;
 
+import factory.Vehicle;
+
 public class Verna implements Vehicle {
 
     @Override
     public void average() {
-        System.out.println("product.Verna average is->" + 17);
+        System.out.println("Verna average is->" + 17);
     }
 }
